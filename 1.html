@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>usmancar.com</title> 
+</head>
+
+<body>
+<header id="home">
+    <h1>USMAN CAR SHOWROOM</h1>
+  </header>
+
+
+  <nav>
+    <ul>
+      <li><a href="#home">HOME</a></li>
+      <li><a href="#gallery">GALLERY</a></li>
+      <li><a href="#form">FORM</a></li>
+      <li><a href="#footer">FOOTER</a></li>
+      <!-- <li><a href="https://www.google.com/" target="blank">GOOGLE</a></li> -->
+      <!-- <li><a href="https://www.youtube.com/" target="blank">YOUTUBE</a></li> -->
+    </ul>
+  </nav>
+
+
+  <section class="section" id="gallery">
+    <div class="card3">
+      <h3>Aston Martin</h3>
+      <img src="card1.jpg" alt="" width="430px" height="430px">
+    </div>
+    <div class="card3">
+      <h3>BMW</h3>
+      <img src="card2.jpg" alt="" width="430px" height="430px">
+    </div>
+    <div class="card3">
+      <h3>Cadillac</h3>
+      <img src="card3.jpg" alt="" width="430px" height="430px">
+    </div>
+    <div class="card3">
+      <h3>Chevrolet</h3>
+      <img src="card4.jpg" alt="" width="430px" height="430px">
+    </div>
+    <div class="card3">
+      <h3>Ferrari</h3>
+      <img src="card5.png" alt="" width="430px" height="430px">
+    </div>
+    <div class="card3">
+      <h3>Ford</h3>
+      <img src="card6.jpg" alt="" width="430px" height="430px">
+    </div>
+  </section>
+
+
+  <div class="form" id="form">
+    <div class="formheading">
+      <h2>
+        
+      </h2>
+    </div>
+    <form action="">
+      <label for="fname">FIRST NAME:</label><br>
+      <input type="text" name="fname" id="fname" autofocus required placeholder="YOUR NAME HERE"><br>
+      <label for="lname">LAST NAME:</label><br>
+      <input type="text" name="lname" id="lname"><br>
+
+      <span>ARE YOU:</span><br>
+      &nbsp;&nbsp;&nbsp;<input type="radio" name="gender" id="male">
+      &nbsp;&nbsp;&nbsp;<label for="male">MALE</label><br>
+      &nbsp;&nbsp;&nbsp;<input type="radio" name="gender" id="FEMALE">
+      &nbsp;&nbsp;&nbsp;<label for="FEMALE">FEMALE</label><br>
+      &nbsp;&nbsp;&nbsp;<input type="radio" name="gender" id="OTHER">
+      &nbsp;&nbsp;&nbsp;<label for="OTHER">OTHER</label><br>
+
+      <span>YOUR SKILLS:</span><br>
+      &nbsp;&nbsp;&nbsp;<input type="checkbox" name="" id="html">
+      &nbsp;&nbsp;&nbsp;<label for="html">DRIFTING</label><br>
+      &nbsp;&nbsp;&nbsp;<input type="checkbox" name="" id="css">
+      &nbsp;&nbsp;&nbsp;<label for="css">SPRINT</label><br>
+      &nbsp;&nbsp;&nbsp;<input type="checkbox" name="" id="javascript">
+      &nbsp;&nbsp;&nbsp;<label for="javascript">DRAG</label><br><br>
+
+      <label for="brow">CHOOSE YOUR DEGREE:</label><br>
+      <input list="browsers" name="browser" id="brow">
+      <datalist id="browsers">
+        <option value="LOW VEHICLE"></option>
+        <option value="PUBLIC VEHICLE"></option>
+        <option value="HIGH VEHICLE"></option>
+        <option value="SPORT VEHICLE"></option>
+      </datalist><br><br>
+
+
+      <fieldset style="width: 50%; border:5px solid white;">
+        <legend>GMAIL ACCOUNT DETAIL</legend>
+        <label for="ename">ENTER YOUR NAME:</label><br>
+        <input type="text" name="ename" id="ename"><br>
+        <label for="email">ENTER YOUR EMAIL:</label><br>
+        <input type="email" name="email" id="email"><br>
+      </fieldset><br>
+
+
+
+      <textarea name="message" id="msg" cols="36" rows="8" placeholder="YOUR MESSAGE HERE:"></textarea><br>
+
+
+      <button type="submit" class="btn btn-dark">SUBMIT</button>
+      <button type="reset" class="btn btn-dark">RESET</button>
+    </form>
+  </div>
+
+
+  <footer id="footer">
+    <div class="foot">
+      <p>FACEBOOK:SCORPION</p>
+    </div>
+    <div class="foot">
+      <p>WHATSAPP:0000-0000000</p>
+    </div>
+    <div class="foot">
+      <p>GMAIL:scorpion@gmail.com</p>
+    </div>
+  </footer>
+</body>
+</html>

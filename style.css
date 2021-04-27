@@ -1,0 +1,166 @@
+body {
+	box-sizing: border-box;
+	margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: black;
+}
+
+
+header{
+  background-image: url("headerbackground.jpg");
+  /* background-size: contain; */
+  background-size: 100% 100%;
+  background-position: left top;
+}
+header h1 {
+  margin: 0px 0px;
+  text-align: center;
+  font-size: 3rem;
+	color:whitesmoke;
+	font-weight: bolder;
+	font-style: oblique;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 200px 200px;
+  text-shadow: 13px 13px 18px red;
+}
+
+
+nav {
+	border: 0.5px solid black;
+  background-color: gray;
+  margin-bottom: 7px;
+  text-align: center;
+  position: sticky;
+  top: 0px;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	margin: 8px;
+	padding: 3px;
+}
+li {
+		display: inline-block;
+	list-style-type: none;
+	margin: 0 0;
+}
+a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	margin: 0 22px;
+	background-color: rgba(95, 86, 86,0);
+	border-radius: 1px;
+	padding: 7px;
+}
+a:hover {
+  background-color: rgb(168, 164, 164);
+	color: black;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+
+section {
+	color:whitesmoke;
+	font-weight: bolder;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(24, 23, 23);
+}
+section::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+section .card3 {
+	width: 31%;
+	text-align: center;
+	margin-left: 10px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+section .card3 img {
+  outline: 1px solid whitesmoke;
+  border-radius: 3px;
+	/* margin-bottom:0 16px; */
+	/* margin-top: 0px; */
+  /* padding-top: 0px; */
+  border-radius: 15px;
+}
+
+
+
+.form {
+	background-color:black;
+	border-bottom: 2px solid white;
+}
+form {
+  color:whitesmoke;
+  font-weight: bolder;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+	margin-left: 35px;
+	border-radius: 25px;
+	margin-bottom: 7px;
+  background-image: url("formbackground.jpg");
+  background-size: 100% 100%;
+	box-shadow: 10px 10px 6px rgb(119, 117, 117);
+	width: 90%;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.formheading {
+	color: blue;
+	text-align: center;
+	color: white;
+	font-size: large;
+	font-weight: bolder;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+footer {
+	text-align: center;
+	background-color: black;
+	color:whitesmoke;
+	text-transform: uppercase;
+  letter-spacing: 2px;
+  outline: 2px solid black;
+  margin-top: 5px;
+}
+
+.foot {
+	display: inline-block;
+	margin-left: 5px;
+  padding-left: 50px;
+  font-weight: bolder;
+}
+.btn{
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 985px) {
+	section .card1 img,
+	section .card2 img,
+	section .card3 img {
+		width: 100%;
+		height: 100%;
+	}
+}
+@media only screen and (max-width: 720px) {
+  section .card1 img:hover {
+		width: 100%;
+		height: 100%;}
+  section .card2 img:hover {
+		width: 100%;
+		height: 100%;}
+	section .card3 img:hover {
+		width: 100%;
+		height: 100%;
+	}
+}
